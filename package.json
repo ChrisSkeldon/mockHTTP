@@ -1,0 +1,18 @@
+{
+  "author": { "name": "Chris Skeldon", "email": "chris.skeldon@gmail.com" },
+  "name": "mockhttp",
+  "description": "Creates mock request and response objects for unit testing Node.js code.",
+  "version": "0.0.1",
+  "keywords": ["test", "mock", "http"],
+  "repository": {
+    "url": "https://github.com/ChrisSkeldon/mockHTTP.git"
+  },
+  "main": "lib/mockHTTP.js",
+  "scripts": {
+    "test": "mocha --reporter spec -u tdd"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1"
+  },
+  "license": "BSD-3-Clause"
+}
