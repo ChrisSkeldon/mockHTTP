@@ -6,7 +6,15 @@ objects will respond to 'data' and 'end' events.
 
 Can be used to mock incoming HTTP requests and associated responses.
 
-Example:
+Install
+-------
+
+````
+  npm install mockHTTP
+````  
+
+Example
+-------
 
 ````
   var mhttp = require('./mockHTTP'),       // Creates mock HTTP request and response objects
